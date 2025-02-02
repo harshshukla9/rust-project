@@ -1,0 +1,11 @@
+/home/harsh/projects/rust-learning/guessing_game/target/debug/deps/libicu_normalizer-10583162e63d1e1c.rmeta: /home/harsh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-1.5.0/src/lib.rs /home/harsh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-1.5.0/src/error.rs /home/harsh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-1.5.0/src/properties.rs /home/harsh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-1.5.0/src/provider.rs /home/harsh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-1.5.0/src/uts46.rs
+
+/home/harsh/projects/rust-learning/guessing_game/target/debug/deps/libicu_normalizer-10583162e63d1e1c.rlib: /home/harsh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-1.5.0/src/lib.rs /home/harsh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-1.5.0/src/error.rs /home/harsh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-1.5.0/src/properties.rs /home/harsh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-1.5.0/src/provider.rs /home/harsh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-1.5.0/src/uts46.rs
+
+/home/harsh/projects/rust-learning/guessing_game/target/debug/deps/icu_normalizer-10583162e63d1e1c.d: /home/harsh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-1.5.0/src/lib.rs /home/harsh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-1.5.0/src/error.rs /home/harsh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-1.5.0/src/properties.rs /home/harsh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-1.5.0/src/provider.rs /home/harsh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-1.5.0/src/uts46.rs
+
+/home/harsh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-1.5.0/src/lib.rs:
+/home/harsh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-1.5.0/src/error.rs:
+/home/harsh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-1.5.0/src/properties.rs:
+/home/harsh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-1.5.0/src/provider.rs:
+/home/harsh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/icu_normalizer-1.5.0/src/uts46.rs:
